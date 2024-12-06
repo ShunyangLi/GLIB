@@ -32,4 +32,11 @@
 #include <ctime>
 
 
+enum class GraphType {
+    Directed,
+    Undirected,
+    Weighted,
+    Bipartite,
+};
+
 #endif //GLIB_UTILITY_H

@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/logo.jpg" style="height: 50%; width: 50%"></p>
+<p align="center"><img src="docs/logo.jpg" style="height: 30%; width: 30%"></p>
 
 
 ![make](https://img.shields.io/badge/make-4.3-brightgreen.svg)
