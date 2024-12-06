@@ -9,7 +9,7 @@ int main() {
     graph.add_edge("AA", "CC");
     graph.add_edge("BB", "DD");
 
-    std::vector<std::string> bfs_order = GLIB::dfs(graph, std::string("AA"));
+    std::vector<std::string> bfs_order = GLIB::topo_sort(graph);
 
     std::cout << "BFS order: ";
     for (const auto& vertex : bfs_order) {
